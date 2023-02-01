@@ -1,0 +1,18 @@
+.hotel-header {
+  height: 4vw;
+  width: 85%;
+  margin: 3vw auto 5vw;
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgba(8, 107, 211, 0.718);
+}
+@media (max-width: 720px) {
+  .hotel-header {
+    height: 7vw;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+  }
+}

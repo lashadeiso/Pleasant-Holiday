@@ -1,0 +1,32 @@
+.hotel-footer {
+  height: 8vw;
+  padding: 0.5vw;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(8, 119, 239, 0.718);
+}
+.hotel-footer-title {
+  height: 40%;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4vw;
+}
+.share {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 2.5vw;
+  width: 2.5vw;
+  fill: rgb(238, 241, 241);
+}
+.logo:hover {
+  cursor: pointer;
+}

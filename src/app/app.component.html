@@ -1,0 +1,42 @@
+<header>
+  <app-header></app-header>
+</header>
+<section class="hotel-banner">
+  <div class="hotel-banner-text">
+    <h1>Bischoff's House</h1>
+    <p>
+      Every booking includes free protection from Host cancellations, listing
+      inaccuracies, and other issues like trouble checking in.
+    </p>
+    <button class="hotel-banner-btn">Reserve</button>
+  </div>
+  <div class="hotel-banner-img">
+    <img src="assets/100.webp" alt="pc-img" />
+  </div>
+</section>
+<section class="hotel-slide">
+  <div class="hotel-slide-info" *ngFor="let item of hotelSliderData">
+    <img [src]="item.img" alt="img" />
+    <p>{{ item.title }}</p>
+  </div>
+</section>
+<section class="hotel-carousel">
+  <app-slider></app-slider>
+</section>
+
+<div class="hotel-cards" *ngFor="let item of hotelCardsData; let i = index">
+  <div [ngClass]="i % 2 != 0 ? 'card-item' : 'card-item-reverse'">
+    <div class="card-item-description">
+      <h4>{{ item.title }}</h4>
+      <p>
+        {{ item.description }}
+      </p>
+    </div>
+    <div class="card-item-img">
+      <img [src]="item.img" alt="img" />
+    </div>
+  </div>
+</div>
+<footer>
+  <app-footer></app-footer>
+</footer>

@@ -1,0 +1,16 @@
+.carousel-imgs {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  height: 60vw;
+  width: 90vw;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.picsum-img-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  font-size: 5.2vw;
+}
